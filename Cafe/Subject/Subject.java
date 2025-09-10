@@ -1,7 +1,10 @@
 package Subject;
+
 import Observer.Observer;
-public interface Subject{
-    public void suscribir(Observer o);
-    public void eliminarSubs(String id);
-    public void notificacion(LoteCafe lote);
-} 
+import Lote.LoteCafe;
+
+public interface Subject {
+    void suscribir(Observer o);
+    void eliminarSubs(String id);
+    void notificacion(LoteCafe lote);
+}

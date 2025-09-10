@@ -1,5 +1,8 @@
 package Observer;
-public interface Observer{
-    public void uptade(LoteCafe lote);
+
+import Lote.LoteCafe;
+
+public interface Observer {
+    void update(LoteCafe lote);
     String getId();
 }

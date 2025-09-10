@@ -1,6 +1,6 @@
 package Lote;
-public class LoteCafe {
 
+public class LoteCafe {
     private String varietal;
     private String origen;
     private String notas;
@@ -8,31 +8,36 @@ public class LoteCafe {
     private String nombreProd;
     private int cantDisponible;
 
-    public LoteCafe(String varietal, String origen, String notas, String alturCult, String nombreProd, int cantDisponible){
+    public LoteCafe(String varietal, String origen, String notas, String alturaCult, String nombreProd, int cantDisponible) {
         this.varietal = varietal;
         this.origen = origen;
         this.notas = notas;
-        this.alturaCult = alturCult;
+        this.alturaCult = alturaCult;
         this.nombreProd = nombreProd;
         this.cantDisponible = cantDisponible;
     }
-    
-    public String getVarietal(){
+
+    public String getVarietal() {
         return varietal;
     }
-    public String getAlturaCult(){
-        return alturaCult;
-    }
-    public String getNotas(){
+
+    public String getNotas() {
         return notas;
     }
-    public String getOrigen(){
+
+    public String getOrigen() {
         return origen;
     }
-    public String getNombreProd(){
+
+    public String getAlturaCult() {
+        return alturaCult;
+    }
+
+    public String getNombreProd() {
         return nombreProd;
     }
-    public int getCantDisponible(){
+
+    public int getCantDisponible() {
         return cantDisponible;
     }
 }
